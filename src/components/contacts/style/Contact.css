@@ -3,6 +3,7 @@
     justify-content: center;
     width: auto;
     height: 200px;
+    width: auto;
 }
 
 .grid-container {
@@ -14,4 +15,32 @@
 h5{
     display: flex;
     justify-content: center;
+}
+
+.input{
+    width: 360px;
+    height: 33px;
+    margin-top: 10px; 
+    border-radius: 16px;
+    border: none;
+    text-indent: 10px;
+    background-color: #d5d6d8;
+}
+
+.submit{
+    color: white;
+    width: 100px;
+    background: black;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+
+.label_privacidad{
+    margin-left: 2em;
+    display: block;
+    position: relative;
+    margin-top: -1.4em;
+    line-height: 1.4em;
+    font-size: 14px;
 }
