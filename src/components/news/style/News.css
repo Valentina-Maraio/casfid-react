@@ -1,0 +1,9 @@
+.new_box{
+    width: auto;
+    height: auto;
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+}

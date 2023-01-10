@@ -1,0 +1,12 @@
+.evento_box{
+    display: flex;
+    color: white;
+    background: linear-gradient(#2e3438, #030303);
+    width: auto;
+    height: 180px;
+    justify-content: center;
+}
+
+h4{
+    padding: 15px;
+}

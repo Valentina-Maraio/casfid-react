@@ -1,0 +1,31 @@
+.menu{
+    background-color: #2eca6b;
+    width: auto;
+    height: 90px;
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.menu_bar{
+    width: auto;
+    height: 14px;
+    background: linear-gradient(0.25turn, #fafcb1, #97cb87, #48b270);
+}
+
+.casfid {
+    width: auto;
+    height: 100px;
+    margin: 5px;
+    object-fit: contain;
+}
+
+.logo {
+    width: auto;
+    height: 70px;
+    margin: 18px;
+    object-fit: contain;
+}
+
+h6{
+    padding: 40px;
+}
