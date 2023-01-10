@@ -1,0 +1,13 @@
+.button{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding: 30px;
+}
+
+.info{
+    background: none;
+    border-radius: 30px;
+    border: 1px solid black;
+    width: 100px;
+}

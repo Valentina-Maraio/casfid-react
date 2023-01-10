@@ -1,0 +1,7 @@
+.footer{
+    width: auto;
+    height: 180px;
+    display: block;
+    justify-content: flex-start;
+    background-color: #2eca6b;
+}

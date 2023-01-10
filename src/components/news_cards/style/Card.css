@@ -1,0 +1,22 @@
+.card_image {
+  width: 150px;
+  height: 150px;
+}
+
+.contain {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.col {
+  flex: 1;
+  min-width: 33%;
+}
+
+@media (max-width: 500px) {
+  .col {
+    min-width: 50%;
+  }
+}
