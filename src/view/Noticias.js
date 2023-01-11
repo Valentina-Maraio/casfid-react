@@ -8,7 +8,6 @@ const Noticias = () => {
     <>
     <Menu/>
     <HeaderNoticias/>
-    <h1>Lista di tutte le notizie</h1>
     <NewsCards/>
     </>
   )

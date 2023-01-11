@@ -10,6 +10,21 @@
   justify-content: center;
 }
 
+.search_box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+h3{
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
 .col {
   flex: 1;
   min-width: 33%;
@@ -19,4 +34,20 @@
   .col {
     min-width: 50%;
   }
+}
+
+.button {
+  position:absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.search{
+  width: 360px;
+  height: 33px;
+  margin-top: 10px;
+  border-radius: 16px;
+  border: none;
+  text-indent: 10px;
+  background-color: #d5d6d8;
 }
