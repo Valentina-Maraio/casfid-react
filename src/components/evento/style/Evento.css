@@ -1,12 +1,41 @@
-.evento_box{
-    display: flex;
-    color: white;
-    background: linear-gradient(#2e3438, #030303);
-    width: auto;
-    height: 180px;
-    justify-content: center;
+.evento_box {
+  display: flex;
+  color: white;
+  background: linear-gradient(#2e3438, #030303);
+  width: auto;
+  height: 180px;
+  justify-content: center;
 }
 
-h4{
-    padding: 15px;
+h4 {
+  padding: 15px;
+}
+h2 {
+  padding-top: 20px;
+}
+
+.nombre_evento {
+  width: auto;
+  height: 300px;
+  display: block;
+  text-align: left;
+  padding: 50px;
+  color: white;
+  background: linear-gradient(0.25turn, #65c674, #f4face);
+}
+
+.box {
+  position: relative;
+}
+
+.casfid_logo {
+  background-color: #2eca6b;
+  border: 15px solid black;
+  border-radius: 50%;
+  display: flex;
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 120px;
+  margin-left: 45%;
 }

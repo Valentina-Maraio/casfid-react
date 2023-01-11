@@ -1,17 +1,3 @@
-.contact_box{
-    display: flex;
-    justify-content: center;
-    width: auto;
-    height: 200px;
-    width: auto;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-}
-
 h5{
     display: flex;
     justify-content: center;
@@ -43,4 +29,22 @@ h5{
     margin-top: -1.4em;
     line-height: 1.4em;
     font-size: 14px;
+}
+
+
+.facebook, .linkedin, .youtube, .instagram{
+    border: 1px solid green;
+    border-radius: 50%;
+    display: inline-flex;
+    color: green;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 45px;
+}
+
+.social_box{
+    width: 360px;
+    padding: 10px;
+    margin-left: 10px;
 }
