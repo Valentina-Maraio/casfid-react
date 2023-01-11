@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 import "./style/Contact.css";
+import "./style/Social.css"
+import {ImFacebook} from 'react-icons/im'
+import {AiOutlineInstagram} from 'react-icons/ai'
+import {FaLinkedinIn} from 'react-icons/fa'
+import {FaYoutube} from 'react-icons/fa'
 
 const Contacts = () => {
   const [email, setEmail] = useState("");
@@ -51,6 +56,14 @@ const Contacts = () => {
             <h5>
               <b>SOCIAL</b>
             </h5>
+            <div>
+              <ul className="social_box">
+                <li className="facebook"><ImFacebook/></li>
+                <li className="instagram"><AiOutlineInstagram/></li>
+                <li className="linkedin"><FaLinkedinIn/></li>
+                <li className="youtube"><FaYoutube/></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

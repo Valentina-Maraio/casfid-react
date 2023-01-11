@@ -1,0 +1,10 @@
+.facebook, .linkedin, .youtube, .instagram{
+    border: 1px solid green;
+    border-radius: 50%;
+    display: inline-flex;
+    color: green;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+}
