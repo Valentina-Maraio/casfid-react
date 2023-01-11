@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import "./style/Card.css";
 import noticias from "../../data/noticias.json";
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
+import Noticia from "../../view/Noticia";
 
-const NewsCards = () => {
-  //const [visible, setVisible] = useState(false);
+const NewsCards = ({ título }) => {
+  const [visible, setVisible] = useState(false);
 
   const [search, setSearch] = useState("");
   return (
@@ -46,9 +47,17 @@ const NewsCards = () => {
                       <Card.Body>
                         <Card.Title>Autor: {item.autor}</Card.Title>
                         <Card.Text>{item.título}</Card.Text>
-                        <Button className="button" variant="primary">
-                          INFO
-                        </Button>
+                        <Noticia
+                          onClose={() => setVisible(false)}
+                          título={item.título}
+                          show={visible === título}
+                          autor={item.autor}
+                          photo={item.imagen}
+                          info={item.descripcion}
+                          summary={<div dangerouslySetInnerHTML={{ __html: item.cuerpo }}></div>}
+                        >
+                          {item.descripcion}
+                        </Noticia>
                       </Card.Body>
                     </Card>
                   </Col>

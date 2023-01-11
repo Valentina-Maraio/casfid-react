@@ -11,7 +11,6 @@ const Menu = () => {
         <Link to="/">
           <img className="casfid" src={casfid} alt="casfid" />
         </Link>
-        <h6>HOME</h6>
         <img className="logo" src={logo} alt="casfid" />
       </div>
       <div className="menu_bar"></div>
