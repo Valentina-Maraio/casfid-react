@@ -1,0 +1,25 @@
+.box {
+    width: auto;
+    height: auto;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  img {
+    width: auto;
+    height: auto;
+    max-inline-size: 100%;
+    block-size: auto;
+    aspect-ratio: 2/1;
+    object-fit: cover;
+  }
+  
+  .centered_logo {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: auto;
+  }

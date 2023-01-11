@@ -1,9 +1,9 @@
 import React from "react";
 import cabecera from '../../assets/images/cabecera_home.jpg'
 import casfid_logo from '../../assets/images/logo_casfid.png'
-import './style/Header.css'
+import './style/HeaderHome.css'
 
-const Header = () => {
+const HeaderHome = () => {
   return (
     <>
       <div className="box">
@@ -14,4 +14,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderHome;

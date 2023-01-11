@@ -1,6 +1,6 @@
 import React from "react";
 import Menu from "../components/menu/Menu";
-import Header from "../components/header/Header";
+import HeaderHome from "../components/header_home/HeaderHome";
 import Evento from "../components/evento/Evento";
 import News from "../components/news/News";
 import Buttons from "../components/button/Buttons";
@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
       <Menu />
-      <Header />
+      <HeaderHome />
       <Evento />
       <News />
       <Buttons />
