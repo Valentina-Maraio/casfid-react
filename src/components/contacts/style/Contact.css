@@ -1,50 +1,71 @@
-h5{
-    display: flex;
-    justify-content: center;
+h5 {
+  display: flex;
+  justify-content: center;
 }
 
-.input{
-    width: 360px;
-    height: 33px;
-    margin-top: 10px; 
-    border-radius: 16px;
-    border: none;
-    text-indent: 10px;
-    background-color: #d5d6d8;
+.input {
+  width: 360px;
+  height: 33px;
+  margin-top: 10px;
+  border-radius: 16px;
+  border: none;
+  text-indent: 10px;
+  background-color: #d5d6d8;
 }
 
-.submit{
-    color: white;
-    width: 100px;
-    background: black;
-    border: 1px solid black;
-    border-radius: 20px;
+.submit {
+  color: white;
+  width: 100px;
+  background: black;
+  border: 1px solid black;
+  border-radius: 20px;
 }
 
-
-.label_privacidad{
-    margin-left: 2em;
-    display: block;
-    position: relative;
-    margin-top: -1.4em;
-    line-height: 1.4em;
-    font-size: 14px;
+.label_privacidad {
+  margin-left: 2em;
+  display: block;
+  position: relative;
+  margin-top: -1.4em;
+  line-height: 1.4em;
+  font-size: 14px;
 }
 
-
-.facebook, .linkedin, .youtube, .instagram{
-    border: 1px solid green;
-    border-radius: 50%;
-    display: inline-flex;
-    color: green;
-    justify-content: center;
-    align-items: center;
-    height: 45px;
-    width: 45px;
+.facebook,
+.linkedin,
+.youtube,
+.instagram {
+  border: 2px solid #2eca6b;
+  border-radius: 50%;
+  display: inline-flex;
+  color: #2eca6b;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 45px;
 }
 
-.social_box{
-    width: 360px;
-    padding: 10px;
-    margin-left: 10px;
+.social_box {
+  width: 360px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+li a {
+  text-decoration: none;
+}
+
+.linkedin:hover,
+.facebook:hover,
+.instagram:hover,
+.youtube:hover {
+  color: #1b773e;
 }
